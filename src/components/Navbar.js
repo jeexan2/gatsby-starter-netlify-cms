@@ -70,7 +70,7 @@ const Navbar = class extends React.Component {
                 Products
               </Link>
               <Link className="navbar-item" to="/blog">
-                Blog
+                  Details
               </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
@@ -87,7 +87,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  {/* <img src={github} alt="Github" /> */}
                 </span>
               </a>
             </div>
